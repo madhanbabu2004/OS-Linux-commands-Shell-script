@@ -816,7 +816,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT
+ ![output](./a1.png)
+
  
 cat untiltest.sh 
 ```bash
@@ -831,8 +833,12 @@ done
 $ chmod 755 untiltest.sh
  
  
- 
+ ## OUTPUT
+ ![output](./b1.png)
+
 cat forin1.sh 
+
+
 ```bash
 \#!/bin/bash
 \#basic for command
@@ -844,8 +850,11 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+ ## OUTPUT
+  ![output](./c1.png)
+
 cat forin2.sh 
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -856,8 +865,11 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ## OUTPUT
+ ![output](./d1.png)
+
 cat forin2.sh 
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -867,7 +879,8 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
+  ![output](./e1.png)
+
 $ ./forin2.sh 
  
 cat forin3.sh 
@@ -880,7 +893,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ## OUTPUT
+ ![output](./f1.png)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -893,6 +908,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+ ![output](./g1.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -914,6 +931,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+ ![output](./h1.png)
 
 
 cat forctype.sh 
@@ -941,6 +959,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+ ![output](./g1.png)
 
 cat fornested1.sh 
 ```bash
@@ -959,6 +978,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![output](./h1.png)
 
  
 cat forbreak.sh 
@@ -976,6 +996,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+ ![output](./i1.png)
 
 $ chmod 755 forbreak.sh
  
@@ -1001,7 +1022,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+  ![output](./j1.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1015,6 +1037,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+ ![output](./k1.png)
 
 
  cat exread1.sh
@@ -1027,6 +1050,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+ ![output](./l1.png)
 
 
 
@@ -1049,9 +1073,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ ![output](./m1.png)
 
  
  ./funcex.sh 1 2
+ ![output](./n1.png)
 
  
 cat argshift.sh
@@ -1065,6 +1091,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+ ![output](./o1.png)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1083,7 +1111,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+  ![output](./p1.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1096,7 +1125,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+  ![output](./q1.png)
+
  
 cat > nc.awk
 ```bash
@@ -1127,7 +1157,10 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![output](./r1.png)
+
+  ![output](./s1.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1154,6 +1187,7 @@ else
 fi
 ```
 ## OUTPUT 
+ ![output](./t1.png)
 
 
 # RESULT:
