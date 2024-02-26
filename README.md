@@ -43,13 +43,13 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-![output](./a.png)
+![output](./aa.png)
 
 
 cat < file2
 ## OUTPUT
 
-![output](./b.png)
+![output](./bb.png)
 
 # Comparing Files
 cmp file1 file2
@@ -63,7 +63,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
-![output](./c.png)
+![output](./cc.png)
 
 
 #Filters
@@ -148,7 +148,7 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-![output](./k.png)
+![output](./dd.png)
 
 
 
